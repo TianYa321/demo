@@ -1,0 +1,30 @@
+import java.util.Scanner;
+public class homework2 {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("请从键盘上录入一个1到5的数字");
+		
+	  
+	  
+	  for(;;) {
+		  int a = scan.nextInt();
+	  if(a == 1) {
+		  System.out.println("新建");
+	  }else if(a == 2) {
+		  System.out.println("打开文件");
+		  
+	  }else if(a == 3) {
+		  System.out.println("保存");
+		 
+	  }else if(a == 4) {
+		  System.out.println("刷新");
+		  
+	  }else if(a == 5) {
+		  System.out.println("退出");
+		  System.exit(0);
+	  }
+	  
+ 	}
+  }
+}
